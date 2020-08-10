@@ -1,0 +1,273 @@
+   
+
+
+   @font-face {
+       font-family: titulos;
+       src: url(../fonts/oxanium-1/webfonts/Oxanium-Regular.woff2), url(../fonts/oxanium-1/webfonts/Oxanium-Regular.woff);
+
+   }
+
+
+   @font-face {
+       font-family: textos;
+       src: url(../fonts/techna-sans-master/technasans-regular-webfont.woff2),url(../fonts/techna-sans-master/technasans-regular-webfont.woff);
+
+   }
+
+
+   * {
+       box-sizing: content-box;
+   }
+
+   /* para dispositivos cuya anchura de pantalla sea inferior a 768px la clase menu estará oculta */
+   /* @media (max-width: 768px) {
+            .menu {
+                display: none;
+            }
+        }*/
+
+
+   /* Headings */
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       font-family: titulos, sans-serif;
+   }
+
+   p {
+       font-family: textos, serif;
+   }
+
+
+header{
+    display:inline-block;
+}
+
+
+.navbar ,navbar-expand-lg, navbar-light,bg-light{
+    
+    font-family: titulos, sans-serif;
+ 
+    
+}   
+
+
+
+.card-body{
+    
+    font-family: textos, serif;
+    
+}
+
+#logo{
+    width: auto;
+    height: 72px;
+}
+
+
+
+   .container {
+       background-color: #444;
+   }
+
+   .carousel-caption {
+       background-color: rgba(0, 0, 0, .5);
+   }
+
+   .carousel-control-prev-icon {
+       background-color: rgba(0, 0, 0, .5);
+       border-radius: 50%;
+       padding: 2rem;
+
+   }
+
+   .carousel-control-next-icon {
+       background-color: rgba(0, 0, 0, .5);
+       border-radius: 50%;
+       padding: 2rem;
+
+   }
+
+   H1 {
+       text-align: center;
+       background: #1a1;
+       color: #eee;
+   }
+
+
+
+   #features {
+       text-align: left;
+   }
+
+#video video{
+    width: 100%;
+}
+
+
+
+#video-intros{    
+    text-align:center;
+    margin-left:auto;
+    }
+
+#video-mixta{    
+    text-align:center;
+    margin-left:auto;
+    }
+
+
+#video-servicios{    
+    text-align:center;
+    margin-left:auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+}
+
+.video-background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+code {
+  padding: 0 0.15rem;
+  background: #f5f5f5;
+  border-radius: 0.2rem;
+}
+
+
+
+
+.container-footer{
+    
+    color:#eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
